@@ -17,9 +17,9 @@
   <imageFileList />
   <imagePngList />
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>ListCell.json</CurrentUIJson>
+  <CurrentUIJson>FolderBrower.json</CurrentUIJson>
   <CanvasSize>
-    <Width>300</Width>
-    <Height>30</Height>
+    <Width>1920</Width>
+    <Height>864</Height>
   </CanvasSize>
 </UIProject>

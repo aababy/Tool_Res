@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ProjectDir>/Users/luoxp/ResearchProjects/tool/CocosStudio/Tool</ProjectDir>
+  <ProjectDir>/Users/luoxp/ResearchProjects/tool/CocosStudio/Tool_Res</ProjectDir>
   <Version>1.0.0.0</Version>
-  <Resources>/Users/luoxp/ResearchProjects/tool/CocosStudio/Tool/Resources</Resources>
+  <Resources>/Users/luoxp/ResearchProjects/tool/CocosStudio/Tool_Res/Resources</Resources>
   <Name>Tool</Name>
   <JsonFileName>Tool.json</JsonFileName>
-  <JsonFolder>/Users/luoxp/ResearchProjects/tool/CocosStudio/Tool/Json</JsonFolder>
+  <JsonFolder>/Users/luoxp/ResearchProjects/tool/CocosStudio/Tool_Res/Json</JsonFolder>
   <JsonList>
     <string>FolderBrower.json</string>
     <string>ListCell.json</string>
     <string>Tool_1.json</string>
   </JsonList>
-  <filePath>/Users/luoxp/ResearchProjects/tool/CocosStudio/Tool/Tool.xml.ui</filePath>
+  <filePath>/Users/luoxp/ResearchProjects/tool/CocosStudio/Tool_Res/Tool.xml.ui</filePath>
   <ProjectType>UIProject</ProjectType>
   <ResRelativePath />
   <imageFileList />
   <imagePngList />
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Tool_1.json</CurrentUIJson>
+  <CurrentUIJson>ListCell.json</CurrentUIJson>
   <CanvasSize>
-    <Width>1920</Width>
-    <Height>864</Height>
+    <Width>300</Width>
+    <Height>30</Height>
   </CanvasSize>
 </UIProject>

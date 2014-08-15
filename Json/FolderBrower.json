@@ -308,6 +308,141 @@
             },
             "children": [],
             "classname": "Panel"
+          },
+          {
+            "options": {
+              "$type": "EditorCommon.JsonModel.Component.GUI.CheckBoxSurrogate, EditorCommon",
+              "backGroundBoxData": {
+                "resourceType": 0,
+                "path": "GUI/selected01.png",
+                "plistFile": ""
+              },
+              "backGroundBoxSelectedData": {
+                "resourceType": 0
+              },
+              "backGroundBoxDisabledData": {
+                "resourceType": 0
+              },
+              "frontCrossData": {
+                "resourceType": 0,
+                "path": "GUI/selected02.png",
+                "plistFile": ""
+              },
+              "frontCrossDisabledData": {
+                "resourceType": 0
+              },
+              "selectedState": true,
+              "x": 1454.0,
+              "y": 169.0,
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "touchAble": true,
+              "visible": true,
+              "classType": "CheckBox",
+              "width": 56.0,
+              "height": 56.0,
+              "positionPercentX": 0.7572917,
+              "positionPercentY": 0.195601851,
+              "sizePercentX": 0.0291666668,
+              "sizePercentY": 0.06481481,
+              "actionTag": 997555874,
+              "tag": 172,
+              "ignoreSize": true,
+              "name": "CheckBox_36",
+              "classname": "CheckBox"
+            },
+            "children": [],
+            "classname": "CheckBox"
+          },
+          {
+            "options": {
+              "$type": "EditorCommon.JsonModel.Component.GUI.LabelSurrogate, EditorCommon",
+              "text": "多选",
+              "hAlignment": 1,
+              "x": 1505.0,
+              "y": 166.0,
+              "visible": true,
+              "classType": "Label",
+              "width": 40.0,
+              "height": 23.0,
+              "positionPercentX": 0.7838542,
+              "positionPercentY": 0.192129627,
+              "sizePercentX": 0.0473958328,
+              "sizePercentY": 0.0266203713,
+              "actionTag": 59283210,
+              "tag": 173,
+              "ignoreSize": true,
+              "name": "Label_37",
+              "classname": "Label"
+            },
+            "children": [],
+            "classname": "Label"
+          },
+          {
+            "options": {
+              "$type": "EditorCommon.JsonModel.Component.GUI.ButtonSurrogate, EditorCommon",
+              "normalData": {
+                "resourceType": 0,
+                "path": "GUI/button.png",
+                "plistFile": ""
+              },
+              "pressedData": {
+                "resourceType": 0
+              },
+              "disabledData": {
+                "resourceType": 0
+              },
+              "text": "完成",
+              "fontSize": 20,
+              "capInsetsWidth": 1.0,
+              "capInsetsHeight": 1.0,
+              "scale9Width": 103.0,
+              "scale9Height": 40.0,
+              "x": 1636.0,
+              "y": 167.0,
+              "touchAble": true,
+              "visible": true,
+              "classType": "Button",
+              "width": 103.0,
+              "height": 40.0,
+              "positionPercentX": 0.8520833,
+              "positionPercentY": 0.19328703,
+              "sizePercentX": 0.0536458343,
+              "sizePercentY": 0.0462962948,
+              "actionTag": 911045348,
+              "tag": 188,
+              "ignoreSize": true,
+              "name": "Button_52",
+              "classname": "Button"
+            },
+            "children": [],
+            "classname": "Button"
+          },
+          {
+            "options": {
+              "$type": "EditorCommon.JsonModel.Component.GUI.LabelSurrogate, EditorCommon",
+              "text": "选择总Plist",
+              "x": 996.0,
+              "y": 784.0,
+              "colorR": 6,
+              "colorG": 149,
+              "colorB": 203,
+              "visible": true,
+              "classType": "Label",
+              "width": 97.0,
+              "height": 23.0,
+              "positionPercentX": 0.51875,
+              "positionPercentY": 0.9074074,
+              "sizePercentX": 0.0473958328,
+              "sizePercentY": 0.0266203713,
+              "actionTag": 545087639,
+              "tag": 190,
+              "ignoreSize": true,
+              "name": "Label_54",
+              "classname": "Label"
+            },
+            "children": [],
+            "classname": "Label"
           }
         ],
         "classname": "Panel"

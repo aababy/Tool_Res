@@ -14,10 +14,14 @@
   <filePath>/Users/luoxp/ResearchProjects/tool/CocosStudio/Tool_Res/Tool.xml.ui</filePath>
   <ProjectType>UIProject</ProjectType>
   <ResRelativePath />
-  <imageFileList />
-  <imagePngList />
+  <imageFileList>
+    <string>Tool0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>Tool0.png</string>
+  </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>FolderBrower.json</CurrentUIJson>
+  <CurrentUIJson>Tool_1.json</CurrentUIJson>
   <CanvasSize>
     <Width>1920</Width>
     <Height>864</Height>

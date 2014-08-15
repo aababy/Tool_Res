@@ -441,16 +441,16 @@
                   "direction": 1,
                   "gravity": 2,
                   "x": 61.0,
-                  "y": -202.0,
+                  "y": -152.0,
                   "touchAble": true,
                   "visible": true,
                   "classType": "ListView",
                   "width": 100.0,
-                  "height": 400.0,
+                  "height": 350.0,
                   "positionPercentX": 0.0635416657,
-                  "positionPercentY": -0.4675926,
+                  "positionPercentY": -0.351851851,
                   "sizePercentX": 0.104166664,
-                  "sizePercentY": 0.9259259,
+                  "sizePercentY": 0.8101852,
                   "actionTag": 167218482,
                   "tag": 99,
                   "anchorPointX": 0.0,
@@ -482,14 +482,14 @@
                   "scale9Width": 103.0,
                   "scale9Height": 40.0,
                   "x": -410.0,
-                  "y": 153.0,
+                  "y": 157.0,
                   "touchAble": true,
                   "visible": true,
                   "classType": "Button",
                   "width": 103.0,
                   "height": 40.0,
                   "positionPercentX": -0.427083343,
-                  "positionPercentY": 0.354166657,
+                  "positionPercentY": 0.36342594,
                   "sizePercentX": 0.107291669,
                   "sizePercentY": 0.09259259,
                   "actionTag": 787847186,
@@ -522,14 +522,14 @@
                   "scale9Width": 103.0,
                   "scale9Height": 40.0,
                   "x": -410.0,
-                  "y": 98.0,
+                  "y": 102.0,
                   "touchAble": true,
                   "visible": true,
                   "classType": "Button",
                   "width": 103.0,
                   "height": 40.0,
                   "positionPercentX": -0.427083343,
-                  "positionPercentY": 0.226851851,
+                  "positionPercentY": 0.2361111,
                   "sizePercentX": 0.107291669,
                   "sizePercentY": 0.09259259,
                   "actionTag": 638716653,
@@ -731,6 +731,454 @@
                 },
                 "children": [],
                 "classname": "Panel"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.LabelSurrogate, EditorCommon",
+                  "text": "角度",
+                  "hAlignment": 1,
+                  "vAlignment": 1,
+                  "x": -235.0,
+                  "y": -123.0,
+                  "visible": true,
+                  "classType": "Label",
+                  "width": 40.0,
+                  "height": 23.0,
+                  "positionPercentX": -0.244791672,
+                  "positionPercentY": -0.2847222,
+                  "sizePercentX": 0.0947916657,
+                  "sizePercentY": 0.0532407425,
+                  "actionTag": 843858344,
+                  "tag": 174,
+                  "ignoreSize": true,
+                  "name": "Label_38",
+                  "classname": "Label"
+                },
+                "children": [],
+                "classname": "Label"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.PanelSurrogate, EditorCommon",
+                  "x": -189.0,
+                  "y": -136.0,
+                  "touchAble": true,
+                  "visible": true,
+                  "classType": "Panel",
+                  "width": 65.0,
+                  "height": 25.0,
+                  "positionPercentX": -0.196875,
+                  "positionPercentY": -0.3148148,
+                  "sizePercentX": 0.0677083358,
+                  "sizePercentY": 0.05787037,
+                  "actionTag": 505830351,
+                  "tag": 175,
+                  "anchorPointX": 0.0,
+                  "anchorPointY": 0.0,
+                  "name": "Panel_39",
+                  "classname": "Panel"
+                },
+                "children": [],
+                "classname": "Panel"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.LabelSurrogate, EditorCommon",
+                  "text": "位移",
+                  "x": -431.0,
+                  "y": 8.0,
+                  "visible": true,
+                  "classType": "Label",
+                  "width": 40.0,
+                  "height": 23.0,
+                  "positionPercentX": -0.448958337,
+                  "positionPercentY": 0.0185185187,
+                  "sizePercentX": 0.0947916657,
+                  "sizePercentY": 0.0532407425,
+                  "actionTag": 1018513873,
+                  "tag": 176,
+                  "ignoreSize": true,
+                  "name": "Label_40",
+                  "classname": "Label"
+                },
+                "children": [],
+                "classname": "Label"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.CheckBoxSurrogate, EditorCommon",
+                  "backGroundBoxData": {
+                    "resourceType": 0,
+                    "path": "GUI/selected01.png",
+                    "plistFile": ""
+                  },
+                  "backGroundBoxSelectedData": {
+                    "resourceType": 0
+                  },
+                  "backGroundBoxDisabledData": {
+                    "resourceType": 0
+                  },
+                  "frontCrossData": {
+                    "resourceType": 0,
+                    "path": "GUI/selected02.png",
+                    "plistFile": ""
+                  },
+                  "frontCrossDisabledData": {
+                    "resourceType": 0
+                  },
+                  "x": -349.0,
+                  "y": 8.0,
+                  "scaleX": 0.5,
+                  "scaleY": 0.5,
+                  "touchAble": true,
+                  "visible": true,
+                  "classType": "CheckBox",
+                  "width": 56.0,
+                  "height": 56.0,
+                  "positionPercentX": -0.363541663,
+                  "positionPercentY": 0.0185185187,
+                  "sizePercentX": 0.0583333336,
+                  "sizePercentY": 0.129629627,
+                  "actionTag": 714584066,
+                  "tag": 177,
+                  "ignoreSize": true,
+                  "name": "CheckBox_41",
+                  "classname": "CheckBox"
+                },
+                "children": [],
+                "classname": "CheckBox"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.LabelSurrogate, EditorCommon",
+                  "text": "随机坐标",
+                  "x": -414.0,
+                  "y": -28.0,
+                  "visible": true,
+                  "classType": "Label",
+                  "width": 80.0,
+                  "height": 23.0,
+                  "positionPercentX": -0.43125,
+                  "positionPercentY": -0.06481481,
+                  "sizePercentX": 0.0947916657,
+                  "sizePercentY": 0.0532407425,
+                  "actionTag": 486242929,
+                  "tag": 178,
+                  "ignoreSize": true,
+                  "name": "Label_42",
+                  "classname": "Label"
+                },
+                "children": [],
+                "classname": "Label"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.CheckBoxSurrogate, EditorCommon",
+                  "backGroundBoxData": {
+                    "resourceType": 0,
+                    "path": "GUI/selected01.png",
+                    "plistFile": ""
+                  },
+                  "backGroundBoxSelectedData": {
+                    "resourceType": 0
+                  },
+                  "backGroundBoxDisabledData": {
+                    "resourceType": 0
+                  },
+                  "frontCrossData": {
+                    "resourceType": 0,
+                    "path": "GUI/selected02.png",
+                    "plistFile": ""
+                  },
+                  "frontCrossDisabledData": {
+                    "resourceType": 0
+                  },
+                  "x": -349.0,
+                  "y": -25.0,
+                  "scaleX": 0.5,
+                  "scaleY": 0.5,
+                  "touchAble": true,
+                  "visible": true,
+                  "classType": "CheckBox",
+                  "width": 56.0,
+                  "height": 56.0,
+                  "positionPercentX": -0.363541663,
+                  "positionPercentY": -0.05787037,
+                  "sizePercentX": 0.0583333336,
+                  "sizePercentY": 0.129629627,
+                  "actionTag": 623866115,
+                  "tag": 179,
+                  "ignoreSize": true,
+                  "name": "CheckBox_43",
+                  "classname": "CheckBox"
+                },
+                "children": [],
+                "classname": "CheckBox"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.PanelSurrogate, EditorCommon",
+                  "x": -459.0,
+                  "y": 37.0,
+                  "touchAble": true,
+                  "visible": true,
+                  "classType": "Panel",
+                  "width": 180.0,
+                  "height": 25.0,
+                  "positionPercentX": -0.478125,
+                  "positionPercentY": 0.08564815,
+                  "sizePercentX": 0.1875,
+                  "sizePercentY": 0.05787037,
+                  "actionTag": 1021777894,
+                  "tag": 173,
+                  "anchorPointX": 0.0,
+                  "anchorPointY": 0.0,
+                  "name": "Panel_45",
+                  "classname": "Panel"
+                },
+                "children": [],
+                "classname": "Panel"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.LabelSurrogate, EditorCommon",
+                  "text": "随机数量",
+                  "x": -414.0,
+                  "y": -59.0,
+                  "visible": true,
+                  "classType": "Label",
+                  "width": 80.0,
+                  "height": 23.0,
+                  "positionPercentX": -0.43125,
+                  "positionPercentY": -0.136574075,
+                  "sizePercentX": 0.0947916657,
+                  "sizePercentY": 0.0532407425,
+                  "actionTag": 244380620,
+                  "tag": 182,
+                  "ignoreSize": true,
+                  "name": "Label_46",
+                  "classname": "Label"
+                },
+                "children": [],
+                "classname": "Label"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.CheckBoxSurrogate, EditorCommon",
+                  "backGroundBoxData": {
+                    "resourceType": 0,
+                    "path": "GUI/selected01.png",
+                    "plistFile": ""
+                  },
+                  "backGroundBoxSelectedData": {
+                    "resourceType": 0
+                  },
+                  "backGroundBoxDisabledData": {
+                    "resourceType": 0
+                  },
+                  "frontCrossData": {
+                    "resourceType": 0,
+                    "path": "GUI/selected02.png",
+                    "plistFile": ""
+                  },
+                  "frontCrossDisabledData": {
+                    "resourceType": 0
+                  },
+                  "x": -349.0,
+                  "y": -56.0,
+                  "scaleX": 0.5,
+                  "scaleY": 0.5,
+                  "touchAble": true,
+                  "visible": true,
+                  "classType": "CheckBox",
+                  "width": 56.0,
+                  "height": 56.0,
+                  "positionPercentX": -0.363541663,
+                  "positionPercentY": -0.129629627,
+                  "sizePercentX": 0.0583333336,
+                  "sizePercentY": 0.129629627,
+                  "actionTag": 920032527,
+                  "tag": 183,
+                  "ignoreSize": true,
+                  "name": "CheckBox_47",
+                  "classname": "CheckBox"
+                },
+                "children": [],
+                "classname": "CheckBox"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.LabelSurrogate, EditorCommon",
+                  "text": "跟踪目标",
+                  "x": -414.0,
+                  "y": -91.0,
+                  "visible": true,
+                  "classType": "Label",
+                  "width": 80.0,
+                  "height": 23.0,
+                  "positionPercentX": -0.43125,
+                  "positionPercentY": -0.210648149,
+                  "sizePercentX": 0.0947916657,
+                  "sizePercentY": 0.0532407425,
+                  "actionTag": 570149162,
+                  "tag": 184,
+                  "ignoreSize": true,
+                  "name": "Label_48",
+                  "classname": "Label"
+                },
+                "children": [],
+                "classname": "Label"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.CheckBoxSurrogate, EditorCommon",
+                  "backGroundBoxData": {
+                    "resourceType": 0,
+                    "path": "GUI/selected01.png",
+                    "plistFile": ""
+                  },
+                  "backGroundBoxSelectedData": {
+                    "resourceType": 0
+                  },
+                  "backGroundBoxDisabledData": {
+                    "resourceType": 0
+                  },
+                  "frontCrossData": {
+                    "resourceType": 0,
+                    "path": "GUI/selected02.png",
+                    "plistFile": ""
+                  },
+                  "frontCrossDisabledData": {
+                    "resourceType": 0
+                  },
+                  "x": -349.0,
+                  "y": -89.0,
+                  "scaleX": 0.5,
+                  "scaleY": 0.5,
+                  "touchAble": true,
+                  "visible": true,
+                  "classType": "CheckBox",
+                  "width": 56.0,
+                  "height": 56.0,
+                  "positionPercentX": -0.363541663,
+                  "positionPercentY": -0.206018522,
+                  "sizePercentX": 0.0583333336,
+                  "sizePercentY": 0.129629627,
+                  "actionTag": 347839634,
+                  "tag": 185,
+                  "ignoreSize": true,
+                  "name": "CheckBox_49",
+                  "classname": "CheckBox"
+                },
+                "children": [],
+                "classname": "CheckBox"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.LabelSurrogate, EditorCommon",
+                  "text": "固定轨迹",
+                  "x": -416.0,
+                  "y": -122.0,
+                  "visible": true,
+                  "classType": "Label",
+                  "width": 80.0,
+                  "height": 23.0,
+                  "positionPercentX": -0.433333337,
+                  "positionPercentY": -0.2824074,
+                  "sizePercentX": 0.0947916657,
+                  "sizePercentY": 0.0532407425,
+                  "actionTag": 56692101,
+                  "tag": 186,
+                  "ignoreSize": true,
+                  "name": "Label_50",
+                  "classname": "Label"
+                },
+                "children": [],
+                "classname": "Label"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.CheckBoxSurrogate, EditorCommon",
+                  "backGroundBoxData": {
+                    "resourceType": 0,
+                    "path": "GUI/selected01.png",
+                    "plistFile": ""
+                  },
+                  "backGroundBoxSelectedData": {
+                    "resourceType": 0
+                  },
+                  "backGroundBoxDisabledData": {
+                    "resourceType": 0
+                  },
+                  "frontCrossData": {
+                    "resourceType": 0,
+                    "path": "GUI/selected02.png",
+                    "plistFile": ""
+                  },
+                  "frontCrossDisabledData": {
+                    "resourceType": 0
+                  },
+                  "x": -349.0,
+                  "y": -120.0,
+                  "scaleX": 0.5,
+                  "scaleY": 0.5,
+                  "touchAble": true,
+                  "visible": true,
+                  "classType": "CheckBox",
+                  "width": 56.0,
+                  "height": 56.0,
+                  "positionPercentX": -0.363541663,
+                  "positionPercentY": -0.2777778,
+                  "sizePercentX": 0.0583333336,
+                  "sizePercentY": 0.129629627,
+                  "actionTag": 2790440,
+                  "tag": 187,
+                  "ignoreSize": true,
+                  "name": "CheckBox_51",
+                  "classname": "CheckBox"
+                },
+                "children": [],
+                "classname": "CheckBox"
+              },
+              {
+                "options": {
+                  "$type": "EditorCommon.JsonModel.Component.GUI.ButtonSurrogate, EditorCommon",
+                  "normalData": {
+                    "resourceType": 0,
+                    "path": "GUI/button.png",
+                    "plistFile": ""
+                  },
+                  "pressedData": {
+                    "resourceType": 0
+                  },
+                  "disabledData": {
+                    "resourceType": 0
+                  },
+                  "text": "全部预览",
+                  "fontSize": 20,
+                  "capInsetsWidth": 1.0,
+                  "capInsetsHeight": 1.0,
+                  "scale9Width": 103.0,
+                  "scale9Height": 40.0,
+                  "x": 110.0,
+                  "y": -179.0,
+                  "touchAble": true,
+                  "visible": true,
+                  "classType": "Button",
+                  "width": 103.0,
+                  "height": 40.0,
+                  "positionPercentX": 0.114583336,
+                  "positionPercentY": -0.414351851,
+                  "sizePercentX": 0.107291669,
+                  "sizePercentY": 0.09259259,
+                  "actionTag": 603897708,
+                  "tag": 191,
+                  "ignoreSize": true,
+                  "name": "Button_55",
+                  "classname": "Button"
+                },
+                "children": [],
+                "classname": "Button"
               }
             ],
             "classname": "ImageView"
